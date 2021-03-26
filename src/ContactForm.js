@@ -31,12 +31,22 @@ const ContactForm = (props) => {
 			<hr />
 			<p>
 				This is an example on how to use formik, yup and react-bootstrap all
-				together with react, this form handles all edge cases of erros.
+				together with react, this form handles all error edge cases.
 			</p>
 			<p>
 				Submitting this form won't actually send any information. It's going to
-				display the information entered in an alert window after 1 second delay
-				(to simulate real world form submission)
+				display the information entered in an alert window after 1 sec delay (to
+				simulate real world form submission).
+			</p>
+			<p>
+				Github Repo Link :{' '}
+				<a
+					target="_blank"
+					href="https://github.com/salimdellali/react-forms-formik-yup-react-bootstrap"
+					rel="noopener noreferrer"
+				>
+					Click Here
+				</a>{' '}
 			</p>
 			<hr />
 			<Formik
